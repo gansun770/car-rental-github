@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Booking Details — DriveEasy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Archivo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-alt">
+
+<header class="navbar">
+  <div class="container">
+    <a class="logo" href="index.html">Drive<span>Easy</span></a>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle menu">
+    <label for="nav-toggle" class="nav-burger" aria-hidden="true"><span></span><span></span><span></span></label>
+    <ul class="nav-links">
+      <li><a href="available-cars.html">Vehicles</a></li>
+      <li><a href="index.html#locations">Locations</a></li>
+      <li><a href="index.html#categories">Pricing</a></li>
+      <li><a href="help-center.html">Support</a></li>
+    </ul>
+    <div class="nav-actions">
+      <a class="signin" href="#">Sign In</a>
+      <a class="btn btn-primary btn-pill" href="available-cars.html">Book Now</a>
+    </div>
+  </div>
+</header>
+
+<main class="flow-main">
+  <div class="container">
+    <div class="flow-grid">
+      <!-- Personal details form -->
+      <section class="panel">
+        <h1>Personal Details</h1>
+        <p class="panel-sub">Please provide your details exactly as shown on your license.</p>
+        <form action="payment.html" method="get">
+          <div class="form-grid">
+            <div class="field full">
+              <label for="fullname">Full Name</label>
+              <input id="fullname" type="text" placeholder="Enter your full name">
+            </div>
+            <div class="field">
+              <label for="email">Email Address</label>
+              <input id="email" type="email" placeholder="alex@example.com">
+            </div>
+            <div class="field">
+              <label for="phone">Phone Number</label>
+              <input id="phone" type="tel" placeholder="+91 98765 43210">
+            </div>
+            <div class="field">
+              <label for="license">Driver's License Number</label>
+              <input id="license" type="text" placeholder="DL-123456789">
+            </div>
+            <div class="field">
+              <label for="pickup-loc">Pick-up Location</label>
+              <select id="pickup-loc">
+                <option>Indira Gandhi Intl Airport (DEL)</option>
+                <option>Mumbai Chhatrapati Shivaji (BOM)</option>
+                <option>Bangalore Kempegowda (BLR)</option>
+                <option>Chennai International (MAA)</option>
+              </select>
+            </div>
+            <div class="field full">
+              <label for="requests">Special Requests (Optional)</label>
+              <textarea id="requests" placeholder="Any specific requirements?"></textarea>
+            </div>
+          </div>
+          <button class="btn btn-primary btn-block" type="submit">Proceed to Payment</button>
+        </form>
+      </section>
+
+      <!-- Summary -->
+      <aside class="summary-card">
+        <div class="car-thumb"><img src="assets/car-swift-hero.jpg" alt="Maruti Swift"></div>
+        <span class="chip">Hatchback</span>
+        <h2>Maruti Swift</h2>
+        <div class="sum-row boxed"><span>Pick-up</span><span class="v">July 10, 2026</span></div>
+        <div class="sum-row boxed"><span>Return</span><span class="v">July 13, 2026</span></div>
+        <div class="sum-row boxed"><span>Duration</span><span class="v">3 Days</span></div>
+        <div class="sum-total">
+          <span class="k">Total Amount</span>
+          <span class="v">₹2,997</span>
+        </div>
+      </aside>
+    </div>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a class="logo" href="index.html">Drive<span>Easy</span></a>
+        <p class="about">Simplifying car rentals across India with transparent pricing and premium service.</p>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Safety</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="help-center.html">Help Center</a></li>
+          <li><a href="reviews.html">Reviews</a></li>
+          <li><a href="available-cars.html">Vehicles</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Refund Policy</a></li>
+          <li><a href="#">Insurance Terms</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>© 2026 DriveEasy India. All rights reserved.</div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Help Center — RideIndia</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Archivo:wght@400;500;600;700;800&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>body { background: var(--help-bg); }</style>
+</head>
+<body>
+
+<header class="navbar">
+  <div class="container">
+    <a class="logo" href="index.html">Ride<span>India</span></a>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle menu">
+    <label for="nav-toggle" class="nav-burger" aria-hidden="true"><span></span><span></span><span></span></label>
+    <ul class="nav-links">
+      <li><a href="available-cars.html">Vehicles</a></li>
+      <li><a href="index.html#locations">Locations</a></li>
+      <li><a href="index.html#categories">Pricing</a></li>
+      <li><a href="index.html#why">Business</a></li>
+      <li><a class="active" href="help-center.html">Support</a></li>
+    </ul>
+    <div class="nav-actions">
+      <a class="signin" href="#">Sign In</a>
+      <a class="btn btn-primary btn-pill" href="available-cars.html">Book Now</a>
+    </div>
+  </div>
+</header>
+
+<!-- Hero -->
+<section class="help-hero">
+  <div class="container">
+    <h1>How can we help?</h1>
+    <p>Search our library of articles, tutorials, and community discussions to find exactly what you need.</p>
+    <form class="help-search" action="#">
+      <span aria-hidden="true">🔍</span>
+      <input type="search" placeholder="Ask a question or search keywords..." aria-label="Search help articles">
+      <button class="btn btn-indigo" type="submit">Search</button>
+    </form>
+    <div class="popular-tags">
+      <span>Popular:</span>
+      <a href="#">Billing</a>
+      <a href="#">Security</a>
+      <a href="#">Team Setup</a>
+      <a href="#">API Keys</a>
+    </div>
+  </div>
+</section>
+
+<!-- Topics -->
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <h2>Browse by Topic</h2>
+      <p>Pick a category to find specific documentation and help guides.</p>
+    </div>
+    <div class="grid-3">
+      <a class="topic-card" href="#">
+        <div class="ico">🚀</div>
+        <h3>Getting Started</h3>
+        <span class="count">12 articles</span>
+        <span class="browse">Browse articles →</span>
+      </a>
+      <a class="topic-card" href="#">
+        <div class="ico">💳</div>
+        <h3>Account &amp; Billing</h3>
+        <span class="count">8 articles</span>
+        <span class="browse">Browse articles →</span>
+      </a>
+      <a class="topic-card" href="#">
+        <div class="ico">🧰</div>
+        <h3>Features &amp; Tools</h3>
+        <span class="count">34 articles</span>
+        <span class="browse">Browse articles →</span>
+      </a>
+      <a class="topic-card" href="#">
+        <div class="ico">🔗</div>
+        <h3>Integrations</h3>
+        <span class="count">15 articles</span>
+        <span class="browse">Browse articles →</span>
+      </a>
+      <a class="topic-card" href="#">
+        <div class="ico">🛠️</div>
+        <h3>Troubleshooting</h3>
+        <span class="count">21 articles</span>
+        <span class="browse">Browse articles →</span>
+      </a>
+      <a class="topic-card" href="#">
+        <div class="ico">👩‍💻</div>
+        <h3>API &amp; Developers</h3>
+        <span class="count">42 articles</span>
+        <span class="browse">Browse articles →</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Popular articles -->
+<section class="section" style="background:#fff;">
+  <div class="container">
+    <div class="articles-wrap">
+      <div>
+        <div class="articles-head">
+          <h2>Popular Articles</h2>
+          <a href="#">View all articles →</a>
+        </div>
+        <a class="article-item" href="#"><h3>Setting up your company workspace</h3><span class="upd">Updated 2 days ago</span></a>
+        <a class="article-item" href="#"><h3>How to manage team permissions and roles</h3><span class="upd">Updated 1 week ago</span></a>
+        <a class="article-item" href="#"><h3>Understanding your monthly invoice</h3><span class="upd">Updated 3 days ago</span></a>
+        <a class="article-item" href="#"><h3>Integrating with Slack and Google Calendar</h3><span class="upd">Updated 5 days ago</span></a>
+        <a class="article-item" href="#"><h3>Resolving common sync errors</h3><span class="upd">Updated 1 day ago</span></a>
+        <a class="article-item" href="#"><h3>Migrating data from external platforms</h3><span class="upd">Updated 2 weeks ago</span></a>
+      </div>
+      <aside class="help-sidebar">
+        <h3>Helpful Tips</h3>
+        <ul>
+          <li>Use keywords for faster search results.</li>
+          <li>Check our video tutorials for visual walkthroughs.</li>
+          <li>Join the community forum for expert advice.</li>
+          <li>Contact support if you can't find your answer here.</li>
+        </ul>
+        <div class="divider"></div>
+        <div class="upd-title">Latest Updates</div>
+        <p class="upd-body">V2.4 release notes are now available. Check them out!</p>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta">
+  <div class="container">
+    <h2>Still have questions?</h2>
+    <p>We're here to help. If you couldn't find what you were looking for, get in touch with our friendly support team.</p>
+    <div class="actions">
+      <a class="btn btn-white" style="color:var(--indigo);" href="#">Live Chat</a>
+      <a class="btn btn-outline-white" href="mailto:hello@rideindia.in">Email Support</a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a class="logo" href="index.html">Ride<span>India</span></a>
+        <p class="about">India's most trusted car rental platform. Providing flexible and affordable mobility solutions across 500+ cities.</p>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul>
+          <li><a href="available-cars.html">Self Drive</a></li>
+          <li><a href="available-cars.html">Chauffeur Driven</a></li>
+          <li><a href="available-cars.html">Corporate Rental</a></li>
+          <li><a href="available-cars.html">Long Term Subscription</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="index.html#locations">Locations</a></li>
+          <li><a href="help-center.html">Contact</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Support</h4>
+        <ul>
+          <li><a href="help-center.html">Help Center</a></li>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Trust &amp; Safety</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>© 2026 RideIndia Rentals Pvt Ltd. All rights reserved.</div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

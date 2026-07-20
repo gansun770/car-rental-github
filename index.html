@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RideIndia — Find Your Perfect Ride, Hassle-Free</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Archivo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ===== Navbar ===== -->
+<header class="navbar">
+  <div class="container">
+    <a class="logo" href="index.html">Ride<span>India</span></a>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle menu">
+    <label for="nav-toggle" class="nav-burger" aria-hidden="true"><span></span><span></span><span></span></label>
+    <ul class="nav-links">
+      <li><a href="available-cars.html">Vehicles</a></li>
+      <li><a href="index.html#locations">Locations</a></li>
+      <li><a href="index.html#categories">Pricing</a></li>
+      <li><a href="index.html#why">Business</a></li>
+      <li><a href="help-center.html">Support</a></li>
+    </ul>
+    <div class="nav-actions">
+      <a class="signin" href="#">Sign In</a>
+      <a class="btn btn-primary btn-pill" href="available-cars.html">Book Now</a>
+    </div>
+  </div>
+</header>
+
+<!-- ===== Hero ===== -->
+<section class="hero">
+  <div class="container">
+    <h1>Find Your Perfect Ride,<br>Hassle-Free</h1>
+    <p class="sub">Search, compare, and book the right vehicle in minutes. Transparent pricing. Flexible pickup across India. No hidden fees.</p>
+
+    <form class="search-card" action="available-cars.html" method="get">
+      <div class="search-field">
+        <label for="pickup-loc">Pickup Location</label>
+        <input id="pickup-loc" type="text" value="Mumbai, Maharashtra">
+      </div>
+      <div class="search-field">
+        <label for="drop-loc">Drop-off Location</label>
+        <input id="drop-loc" type="text" placeholder="Same as pickup">
+      </div>
+      <div class="search-field">
+        <label for="pickup-date">Pickup Date</label>
+        <input id="pickup-date" type="text" value="Jan 15, 2026">
+      </div>
+      <div class="search-field">
+        <label for="return-date">Return Date</label>
+        <input id="return-date" type="text" value="Jan 19, 2026">
+      </div>
+      <button class="btn btn-primary" type="submit">Search Available Cars</button>
+    </form>
+  </div>
+</section>
+
+<!-- ===== Categories ===== -->
+<section class="section" id="categories">
+  <div class="container">
+    <div class="section-head">
+      <h2>Every Vehicle for Every Journey</h2>
+      <p>From budget-friendly economy to premium luxury — we have the perfect car for you.</p>
+    </div>
+    <div class="grid-3">
+      <article class="card">
+        <a class="card-img" href="available-cars.html"><img src="assets/category-1.jpg" alt="Hatchback"></a>
+        <div class="card-body">
+          <h3>Hatchback</h3>
+          <p class="card-price">From ₹999/day</p>
+          <p class="card-tag">Great on fuel</p>
+          <a class="card-link" href="available-cars.html">View Options</a>
+        </div>
+      </article>
+      <article class="card">
+        <a class="card-img" href="available-cars.html"><img src="assets/category-2.jpg" alt="Sedan"></a>
+        <div class="card-body">
+          <h3>Sedan</h3>
+          <p class="card-price">From ₹1,499/day</p>
+          <p class="card-tag">Comfort &amp; style</p>
+          <a class="card-link" href="available-cars.html">View Options</a>
+        </div>
+      </article>
+      <article class="card">
+        <a class="card-img" href="available-cars.html"><img src="assets/category-3.jpg" alt="SUV"></a>
+        <div class="card-body">
+          <h3>SUV</h3>
+          <p class="card-price">From ₹1,999/day</p>
+          <p class="card-tag">Space for adventure</p>
+          <a class="card-link" href="available-cars.html">View Options</a>
+        </div>
+      </article>
+      <article class="card">
+        <a class="card-img" href="available-cars.html"><img src="assets/category-4.jpg" alt="Luxury car"></a>
+        <div class="card-body">
+          <h3>Luxury</h3>
+          <p class="card-price">From ₹4,999/day</p>
+          <p class="card-tag">Travel in elegance</p>
+          <a class="card-link" href="available-cars.html">View Options</a>
+        </div>
+      </article>
+      <article class="card">
+        <a class="card-img" href="available-cars.html"><img src="assets/category-5.jpg" alt="Electric car"></a>
+        <div class="card-body">
+          <h3>Electric</h3>
+          <p class="card-price">From ₹2,499/day</p>
+          <p class="card-tag">Zero emissions</p>
+          <a class="card-link" href="available-cars.html">View Options</a>
+        </div>
+      </article>
+      <article class="card">
+        <a class="card-img" href="available-cars.html"><img src="assets/category-6.jpg" alt="MUV"></a>
+        <div class="card-body">
+          <h3>MUV</h3>
+          <p class="card-price">From ₹2,999/day</p>
+          <p class="card-tag">Room for everyone</p>
+          <a class="card-link" href="available-cars.html">View Options</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== How it works ===== -->
+<section class="section alt">
+  <div class="container">
+    <div class="section-head">
+      <h2>Book in 3 Simple Steps</h2>
+      <p>Follow these quick and easy steps to schedule your perfect gateway</p>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <div class="num">01</div>
+        <h3>Search &amp; Compare</h3>
+        <p>Enter your dates and city, browse vehicles with upfront pricing in INR.</p>
+      </div>
+      <div class="step">
+        <div class="num">02</div>
+        <h3>Book Instantly</h3>
+        <p>Reserve in under 2 minutes, no paperwork or phone calls needed.</p>
+      </div>
+      <div class="step">
+        <div class="num">03</div>
+        <h3>Pick Up &amp; Drive</h3>
+        <p>Collect from 500+ locations across India or get doorstep delivery.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Why RideIndia ===== -->
+<section class="section" id="why">
+  <div class="container">
+    <div class="section-head">
+      <h2>Why Thousands Choose RideIndia</h2>
+    </div>
+    <div class="benefits">
+      <div class="benefit">
+        <div class="ico">💰</div>
+        <h3>Transparent Pricing</h3>
+        <p>What you see is what you pay. No hidden service fees or surprise insurance costs.</p>
+      </div>
+      <div class="benefit">
+        <div class="ico">📍</div>
+        <h3>Flexible Pickup &amp; Return</h3>
+        <p>Choose from 500+ locations across India or opt for doorstep delivery and one-way rentals.</p>
+      </div>
+      <div class="benefit">
+        <div class="ico">🚗</div>
+        <h3>Wide Selection</h3>
+        <p>From nimble hatchbacks to premium luxury SUVs, always available across major Indian cities.</p>
+      </div>
+      <div class="benefit">
+        <div class="ico">⚡</div>
+        <h3>Instant Booking</h3>
+        <p>Verified bookings in under 2 minutes. Fully digital process from start to finish.</p>
+      </div>
+      <div class="benefit">
+        <div class="ico">🛡️</div>
+        <h3>Insurance Included</h3>
+        <p>Travel with peace of mind. Comprehensive coverage is standard with every rental.</p>
+      </div>
+      <div class="benefit">
+        <div class="ico">🎧</div>
+        <h3>24/7 Support</h3>
+        <p>Round-the-clock roadside assistance and customer help just a tap away.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Metrics ===== -->
+<section class="metrics">
+  <div class="container">
+    <div><div class="num">1,00,000+</div><div class="lbl">Happy Customers</div></div>
+    <div><div class="num">500+</div><div class="lbl">Pickup Locations</div></div>
+    <div><div class="num">4.8/5</div><div class="lbl">Average Rating</div></div>
+    <div><div class="num">2 min</div><div class="lbl">Avg Booking Time</div></div>
+  </div>
+</section>
+
+<!-- ===== Testimonials ===== -->
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <h2>What Our Customers Say</h2>
+    </div>
+    <div class="reviews">
+      <div class="review-card">
+        <div class="stars" aria-label="5 stars">★★★★★</div>
+        <blockquote>“The booking process was incredibly smooth. I found the perfect Innova for my family trip to Goa in under a minute, and the pricing was exactly what was quoted — no surprises!”</blockquote>
+        <div class="reviewer">
+          <img src="assets/avatar-1.jpg" alt="Priya S.">
+          <div><div class="nm">Priya S.</div><div class="rl">Business Traveler</div></div>
+        </div>
+      </div>
+      <div class="review-card">
+        <div class="stars" aria-label="5 stars">★★★★★</div>
+        <blockquote>“I love the flexible pickup options. Being able to get the car delivered to my hotel in Jaipur saved me so much time during my Rajasthan trip.”</blockquote>
+        <div class="reviewer">
+          <img src="assets/avatar-2.jpg" alt="Rajesh K.">
+          <div><div class="nm">Rajesh K.</div><div class="rl">Tourist</div></div>
+        </div>
+      </div>
+      <div class="review-card">
+        <div class="stars" aria-label="5 stars">★★★★★</div>
+        <blockquote>“Best rental experience I have ever had. The electric vehicle selection is fantastic, and the insurance included gives real peace of mind on long drives.”</blockquote>
+        <div class="reviewer">
+          <img src="assets/avatar-3.jpg" alt="Ananya M.">
+          <div><div class="nm">Ananya M.</div><div class="rl">Daily Commuter</div></div>
+        </div>
+      </div>
+    </div>
+    <div class="view-more-wrap">
+      <a class="btn-view-more" href="reviews.html">View more</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Locations ===== -->
+<section class="section alt" id="locations">
+  <div class="container">
+    <div class="section-head">
+      <h2>Available in 500+ Locations</h2>
+    </div>
+    <div class="grid-3">
+      <a class="city-card" href="available-cars.html">
+        <img src="assets/city-1.jpg" alt="Mumbai">
+        <div class="veil"></div>
+        <div class="meta"><h3>Mumbai</h3><p>450 Vehicles</p></div>
+      </a>
+      <a class="city-card" href="available-cars.html">
+        <img src="assets/city-2.jpg" alt="Delhi NCR">
+        <div class="veil"></div>
+        <div class="meta"><h3>Delhi NCR</h3><p>520 Vehicles</p></div>
+      </a>
+      <a class="city-card" href="available-cars.html">
+        <img src="assets/city-3.jpg" alt="Bangalore">
+        <div class="veil"></div>
+        <div class="meta"><h3>Bangalore</h3><p>380 Vehicles</p></div>
+      </a>
+      <a class="city-card" href="available-cars.html">
+        <img src="assets/city-4.jpg" alt="Chennai">
+        <div class="veil"></div>
+        <div class="meta"><h3>Chennai</h3><p>290 Vehicles</p></div>
+      </a>
+      <a class="city-card" href="available-cars.html">
+        <img src="assets/city-5.jpg" alt="Hyderabad">
+        <div class="veil"></div>
+        <div class="meta"><h3>Hyderabad</h3><p>310 Vehicles</p></div>
+      </a>
+      <a class="city-card" href="available-cars.html">
+        <img src="assets/city-6.jpg" alt="Pune">
+        <div class="veil"></div>
+        <div class="meta"><h3>Pune</h3><p>250 Vehicles</p></div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CTA ===== -->
+<section class="cta">
+  <div class="container">
+    <h2>Ready to Hit the Road?</h2>
+    <p>Join 1,00,000+ satisfied customers across India. Book your perfect rental in minutes.</p>
+    <div class="actions">
+      <a class="btn btn-white" href="available-cars.html">Book Now</a>
+      <a class="btn btn-outline-white" href="available-cars.html">View All Vehicles</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Footer ===== -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a class="logo" href="index.html">Ride<span>India</span></a>
+        <p class="about">India's trusted car rental platform. Simple booking, transparent pricing, flexible options across 500+ cities.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="available-cars.html">Vehicles</a></li>
+          <li><a href="index.html#locations">Locations</a></li>
+          <li><a href="index.html#categories">Pricing</a></li>
+          <li><a href="index.html#why">Business</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Support</h4>
+        <ul>
+          <li><a href="help-center.html">Help Center</a></li>
+          <li><a href="help-center.html">FAQs</a></li>
+          <li><a href="help-center.html">Contact Us</a></li>
+          <li><a href="#">Terms &amp; Conditions</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:hello@rideindia.in">hello@rideindia.in</a></li>
+          <li><a href="tel:+9118001234567">+91 1800 123 4567</a></li>
+          <li><a href="#">205, Bandra Kurla Complex, Mumbai, MH</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>© 2026 RideIndia. All rights reserved.</div>
+      <div class="links"><a href="#">Privacy Policy</a><a href="#">Cookie Policy</a></div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
